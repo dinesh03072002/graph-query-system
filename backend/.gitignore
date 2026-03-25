@@ -1,0 +1,64 @@
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+
+venv/
+.env/
+.env.*
+
+# VS Code / IDE
+
+.vscode/
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Database files (if any local)
+
+*.sqlite3
+*.db
+
+# Environment variables
+
+.env
+
+# Build / distribution
+
+build/
+dist/
+*.egg-info/
+
+# Coverage / testing
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# FastAPI / Uvicorn
+
+*.pid
+
+# Secrets / configs
+
+config.yaml
+config.json
+
+# Data files 
+
+data/
+*.csv
+*.jsonl
+
+

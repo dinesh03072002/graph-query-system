@@ -164,23 +164,7 @@ function ChatInterface({ onQueryResult }) {
       </div>
 
       {/* Example Queries */}
-      <div className="example-queries">
-        <p>Try asking:</p>
-        <div className="query-chips">
-          {exampleQueries.map((query, index) => (
-            <button
-              key={index}
-              className="query-chip"
-              onClick={() => {
-                setInputValue(query);
-                inputRef.current?.focus();
-              }}
-            >
-              {query}
-            </button>
-          ))}
-        </div>
-      </div>
+      
 
       {/* Input Area */}
       <div className="chat-input-area">
